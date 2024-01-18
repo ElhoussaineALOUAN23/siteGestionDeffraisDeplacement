@@ -1,0 +1,15 @@
+ .inputproduit{
+    border: 2px solid #d8d4d4;
+    outline: none;
+    border-radius: 4px;
+    width: 350px !important;
+    padding: 4px;
+    height: 40px; 
+    font-size: 12px;  
+    margin-left: 50px;
+    margin-bottom: 30px;
+ }
+ 
+.inputproduit:focus {
+    border-color: #90f807;
+}

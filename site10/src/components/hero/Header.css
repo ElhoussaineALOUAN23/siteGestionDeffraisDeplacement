@@ -1,0 +1,75 @@
+/*=======================
+  table of contents
+  =======================*/
+  /*
+  1.left-section
+  2.right-section
+
+  */
+
+  section.hero{
+    margin-top: 3rem;
+}
+ /*=======================
+  1.left-section
+  =======================*/
+section.hero .left-section{
+    flex-grow: 1;
+}
+section.hero .parent-img{
+    width: 88px;
+    border-radius: 50%;
+    border: 1px var( --bgnav);
+     
+    
+}
+section.hero .parent-img:hover{
+    transform: scale(1.1);  
+}
+section.hero .verified-icon{
+    color:var(--blue);
+    font-size: 1.1rem;
+
+}
+
+section.hero h1.name{
+    font-size: 2.83rem;
+    line-height: 3.3rem;
+    margin: 24px 0;
+    color: var(--title);
+}
+
+section.hero h1.title{
+    color: var(--title);
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+}
+
+section.hero p.sub-title{
+    color: var(--subtitle);
+    font-size: 0.9rem;
+    line-height: 1.65rem;
+    margin-bottom: 32px;
+}
+
+section.hero .all-icons{
+    font-size: 1.3rem;
+    gap: 1.5em; 
+    color: var(--subtitle); 
+    
+}
+
+section.hero .all-icons .icon:hover{
+    font-size: 1.4  rem;
+    transition: 0.3s;
+    cursor: pointer;
+    color: var(--blue); 
+    
+      
+}
+section.hero .icon-verified{
+    color: var(--blue);
+}
+/*=======================
+  2.right-section
+  =======================*/
